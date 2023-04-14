@@ -15,3 +15,7 @@
 # Logs
 
 `docker-compose exec php-fpm tail -n 300 storage/logs/laravel.log`
+
+# Run tests
+
+`docker-compose exec php-fpm php artisan test`
