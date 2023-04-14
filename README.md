@@ -11,3 +11,7 @@
 # Stop
 
 `docker-compose down`
+
+# Logs
+
+`docker-compose exec php-fpm tail -n 300 storage/logs/laravel.log`
